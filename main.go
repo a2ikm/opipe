@@ -16,7 +16,7 @@ func main() {
 
 	cmd := exec.Command("open", args...)
 	out, _ := cmd.CombinedOutput()
-	fmt.Println(string(out))
+	fmt.Print(string(out))
 }
 
 func getStdinLines() []string {
