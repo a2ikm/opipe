@@ -14,7 +14,7 @@ func main() {
 	args0 := os.Args[1:]
 	args := append(args0, lines...)
 
-	cmd := exec.Command("open", args...)
+	cmd := exec.Command("/usr/bin/open", args...)
 	out, _ := cmd.CombinedOutput()
 	fmt.Print(string(out))
 }
