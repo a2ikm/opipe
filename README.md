@@ -3,6 +3,8 @@ opipe
 
 Pass STDIN to [OS X's open command](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/open.1.html) as arguments.
 
+**EDIT: `xargs` just do this like `find . | xargs open -a Atom`.**
+
 Installation
 ------------
 
